@@ -1,11 +1,11 @@
-// Package math Package use to perform math operations
+// Package math can be used to perform mathematical operations.
+// supported operations:
+//   - Additions - [math.Add]
+//   - Multiplications - [math.Mul]
+//   - Subtractions - [math.Mul]
 package math
 
 // Add A method to add numbers together,
-//
-// Accepted parameters:
-// x - int
-// y - int
 // more information about method operation can be found here:  [mathsisfun]
 //
 // [mathsisfun]: https://www.mathsisfun.com/numbers/addition.html
