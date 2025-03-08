@@ -1,13 +1,22 @@
+// Package math Package use to perform math operations
 package math
 
-func Add(a, b int) int {
-	return a + b
+// Add A method to add numbers together,
+//
+// Accepted parameters:
+// x - int
+// y - int
+// more information about method operation can be found here:  [mathsisfun]
+//
+// [mathsisfun]: https://www.mathsisfun.com/numbers/addition.html
+func Add(x, y int) int {
+	return x + y
 }
 
-func Sub(a, b int) int {
-	return a - b
+func Sub(x, y int) int {
+	return x - y
 }
 
-func Mul(a, b int) int {
-	return a * b
+func Mul(x, y int) int {
+	return x * y
 }
